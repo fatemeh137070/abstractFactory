@@ -9,7 +9,6 @@ import com.restaurant.product.Drink;
 public class Main {
     public static void main(String[] args) {
 
-
         AbstractFactory italianFactory = new ItalianRestaurantFactory();
         Food italianFood = italianFactory.createFood();
         Drink italianDrink = italianFactory.createDrink();
