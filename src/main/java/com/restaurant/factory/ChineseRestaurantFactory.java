@@ -3,7 +3,8 @@ package com.restaurant.factory;
 import com.restaurant.product.Food;
 import com.restaurant.product.Drink;
 import com.restaurant.product.Noodle;
-import com.restaurant.product.Dumpling;
+import com.restaurant.product.Tea;
+
 
 public class ChineseRestaurantFactory extends AbstractFactory {
 
@@ -14,6 +15,7 @@ public class ChineseRestaurantFactory extends AbstractFactory {
 
     @Override
     public Drink createDrink() {
-        return new Dumpling();
+        return new Tea();
     }
 }
+
